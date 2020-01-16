@@ -158,7 +158,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <a href="#" class="active">Home</a>
   <a href="#" class="button-1">Button1</a>
   <a href="#" class="button-2">Button2</a>
-  <a href="#" class="right" onclick="gtag('event', 'gtag_btn_click_1');">gtag</a>
+  <a href="#" class="right" onclick="gtag('event', 'aaa', {
+    'event_category' : 'bbb',
+    'event_label' : 'ccc'
+  });">gtag</a>
 </div>
 
 <div class="row">
